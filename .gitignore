@@ -1,0 +1,18 @@
+# Entorno virtual (La carpeta que creamos antes)
+venv/
+.venv/
+env/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos generados por RenderCV (opcional)
+# rendercv_output/
+
+# Archivos temporales de LaTeX (RenderCV los usa internamente)
+*.aux
+*.log
+*.out
+*.toc
