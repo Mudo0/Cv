@@ -1,8 +1,8 @@
 
 #import "@preview/fontawesome:0.5.0": fa-icon
 
-#let name = "Mateo"
-#let locale-catalog-page-numbering-style = context { "Mateo - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
+#let name = "Mateo Del Lungo"
+#let locale-catalog-page-numbering-style = context { "Mateo Del Lungo - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
 #let locale-catalog-last-updated-date-style = "Last updated in Feb 2026"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
@@ -461,233 +461,98 @@
   )
 ]
 
-= Mateo
+= Mateo Del Lungo
 
 // Print connections:
 #let connections-list = (
-  [Location],
-  [#box(original-link("mailto:john.doe@example.com")[john.doe\@example.com])],
-  [#box(original-link("tel:+1-609-999-9995")[\(609\) 999-9995])],
-  [#box(original-link("https://linkedin.com/in/john.doe")[linkedin.com\/in\/john.doe])],
-  [#box(original-link("https://github.com/john.doe")[github.com\/john.doe])],
+  [Cordoba, Argentina],
+  [#box(original-link("mailto:mateodellungo@gmail.com")[mateodellungo\@gmail.com])],
+  [#box(original-link("tel:+54-351-753-6490")[0351 753-6490])],
+  [#box(original-link("https://linkedin.com/in/mateo-del-lungo")[linkedin.com\/in\/mateo-del-lungo])],
+  [#box(original-link("https://github.com/Mudo0")[github.com\/Mudo0])],
 )
 #connections(connections-list)
 
 
 
-== Welcome to RenderCV!
+== Summary
 
 
 #one-col-entry(
-  content: [#link("https://rendercv.com")[RenderCV] is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.]
+  content: [Software Development student with a strong focus on backend. I really like solving problems, creating systems and learning about new technologies.]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.]
+  content: [Engaging in diverse personal projects has allowed me to sharpen my technical skills across different enviroments.]
 )
-
-
-== Education
-
-
-// YES DATE, NO DEGREE
-#two-col-entry(
-  left-content: [
-    #strong[Stanford University], PhD in Computer Science -- Stanford, CA, USA
-  ],
-  right-content: [
-    Sept 2023 – present
-  ],
-)
-#block(
-  [
-    #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([Working on the optimization of autonomous vehicles in urban environments],)
-  ],
-  inset: (
-    left: design-entries-left-and-right-margin,
-    right: design-entries-left-and-right-margin,
-  ),
-)
-
 #v(design-entries-vertical-space-between-entries)
-// YES DATE, NO DEGREE
-#two-col-entry(
-  left-content: [
-    #strong[Boğaziçi University], BS in Computer Engineering -- Istanbul, Türkiye
-  ],
-  right-content: [
-    Sept 2018 – June 2022
-  ],
-)
-#block(
-  [
-    #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([GPA: 3.9\/4.0, ranked 1st out of 100 students],[Awards: Best Senior Project, High Honor],)
-  ],
-  inset: (
-    left: design-entries-left-and-right-margin,
-    right: design-entries-left-and-right-margin,
-  ),
-)
-
-
-
-== Experience
-
-
-#two-col-entry(
-  left-content: [
-    #strong[Summer Intern], Company C -- Livingston, LA, USA
-  ],
-  right-content: [
-    June 2024 – Sept 2024
-  ],
-)
 #one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Developed deep learning models for the detection of gravitational waves in LIGO data],[Published #link("https://example.com")[3 peer-reviewed research papers] about the project and results],)
-  ],
+  content: [Currently i'm seeking job opportunities to apply my skills while continuing to learn and grow as a professional developer.]
 )
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Summer Intern], Company B -- Ankara, Türkiye
-  ],
-  right-content: [
-    June 2023 – Sept 2023
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Optimized the production line by 15\% by implementing a new scheduling algorithm],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Summer Intern], Company A -- Istanbul, Türkiye
-  ],
-  right-content: [
-    June 2022 – Sept 2022
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Designed an inventory management web application for a warehouse],)
-  ],
-)
-
-
-
-== Projects
-
-
-#two-col-entry(
-  left-content: [
-    #link("https://example.com")[#strong[Example Project]] 
-  ],
-  right-content: [
-    May 2024 – present
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A web application for writing essays])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Launched an #link("https://example.com")[iOS app] in 09\/2024 that currently has 10k+ monthly active users],[The app is made open-source \(3,000+ stars #link("https://github.com")[on GitHub]\)],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #link("https://example.com")[#strong[Teaching on Udemy]] 
-  ],
-  right-content: [
-    Fall 2023
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Instructed the \"Statistics\" course on Udemy \(60,000+ students, 200,000+ hours watched\)],)
-  ],
-)
-
 
 
 == Skills
 
 
 #one-col-entry(
-  content: [#strong[Programming:] Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps]
+  content: [#strong[Programming Languages:] C\#, Java, Javascript, Typescript]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Mathematics:] Good understanding of differential equations, calculus, and linear algebra]
+  content: [#strong[Databases:] SQL Server, PostgreSQL, MongoDB]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Languages:] English \(fluent, TOEFL: 118\/120\), Turkish \(native\)]
+  content: [#strong[Technologies:] .NET, Angular, Spring, Maven, HTML, CSS, Tailwind, Bootstrap]
 )
-
-
-== Publications
-
-
-#two-col-entry(
-  left-content: [
-    #strong[3D Finite Element Analysis of No-Insulation Coils]
-
-  ],
-  right-content: [
-    Jan 2004
-  ],
-)
-#one-col-entry(content:[
-#v(design-highlights-top-margin);Frodo Baggins, #strong[#emph[John Doe]], Samwise Gamgee
-
-#v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.1109/TASC.2023.3340648")[10.1109/TASC.2023.3340648]])
-
-
-
-== Extracurricular Activities
-
-
-#one-col-entry(content: [#bullet-entry[There are 7 unique entry types in RenderCV: #emph[BulletEntry], #emph[TextEntry], #emph[EducationEntry], #emph[ExperienceEntry], #emph[NormalEntry], #emph[PublicationEntry], and #emph[OneLineEntry].]])
 #v(design-entries-vertical-space-between-entries)
-#one-col-entry(content: [#bullet-entry[Each entry type has a different structure and layout. This document demonstrates all of them.]])
+#one-col-entry(
+  content: [#strong[Tools:] Git, Linux, Docker \(learning\)]
+)
 
 
-== Numbered Entries
+== Projects
+
+
+
 #one-col-entry(
   content: [
+    #strong[Full-stack Online Multiplayer Board Game \(El Estanciero\) ] 
 
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Collaborative development of a digital version of \"El Estanciero\", featuring real-time gameplay, user authentication, complex bussiness logic, and persistent game states. I was involved in both the frontend and backend development.])], column-gutter: 0cm)
 
-+ This is a numbered entry.
-+ This is another numbered entry.
-+ This is the third numbered entry.
-
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend")[Backend Repo]: RESTful API in Java, Spring Boot, SQL Server, JWT auth],[#link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend")[Frontend Repo]: Angular, Typescript, Tailwind],[Architecture: Repositories, Services, Models, Handlers],)
   ],
 )
 
-== Reversed Numbered Entries
+#v(design-entries-vertical-space-between-entries)
+
 #one-col-entry(
   content: [
-    #let rev-enum-items = (
+    #strong[Full-stack Real-Time Chat Application] 
 
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed a scalable real-time messaging platform in a collaborative environment using SignalR for low-latency, bi-directional communication. I was involved in both the frontend and backend development.])], column-gutter: 0cm)
 
-[This is a reversed numbered entry.],
-[This is another reversed numbered entry.],
-[This is the third reversed numbered entry.],
-
-  )
-  #enum(
-    numbering: n => [#{rev-enum-items.len() + 1 - n}.],
-    ..rev-enum-items,
-  )
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#link("https://github.com/Tomilomi/chat-in-realtime-collab")[Backend Repo]: C\#, SignalR, Websockets, PostgreSQL, ASP.NET Core],[\[Frontend Repo\]: React, Tailwind],)
   ],
 )
+
+
+
+== Education
+
+
+// NO DATE, NO DEGREE
+
+#one-col-entry(
+  content: [
+    #strong[National Technological University \(UTN\)], Higher Technician in Software development 
+
+    
+  ],
+)
+
+
 
