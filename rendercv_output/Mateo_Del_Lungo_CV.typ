@@ -3,8 +3,8 @@
 
 #let name = "Mateo Del Lungo"
 #let locale-catalog-page-numbering-style = context { "Mateo Del Lungo - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Feb 2026"
-#let locale-catalog-language = "en"
+#let locale-catalog-last-updated-date-style = "Actualizado en Febrero de 2026"
+#let locale-catalog-language = "es"
 #let design-page-size = "us-letter"
 #let design-colors-text = rgb(0, 0, 0)
 #let design-colors-section-titles = rgb(0, 0, 0)
@@ -465,7 +465,7 @@
 
 // Print connections:
 #let connections-list = (
-  [Cordoba, Argentina],
+  [Córdoba, Argentina],
   [#box(original-link("mailto:mateodellungo@gmail.com")[mateodellungo\@gmail.com])],
   [#box(original-link("tel:+54-351-753-6490")[0351 753-6490])],
   [#box(original-link("https://linkedin.com/in/mateo-del-lungo")[linkedin.com\/in\/mateo-del-lungo])],
@@ -475,54 +475,54 @@
 
 
 
-== Summary
+== Perfil Profesional
 
 
 #one-col-entry(
-  content: [Software Development student with a strong focus on backend. I really like solving problems, creating systems and learning about new technologies.]
+  content: [Estudiante de Programación con un fuerte enfoque en desarrollo backend. Me apasiona la resolución de problemas, el diseño de sistemas y el aprendizaje continuo de nuevas tecnologías.]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [Engaging in diverse personal projects has allowed me to sharpen my technical skills across different enviroments.]
+  content: [A través de diversos proyectos personales, he fortalecido mis habilidades técnicas en distintos entornos de desarrollo.]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [Currently i'm seeking job opportunities to apply my skills while continuing to learn and grow as a professional developer.]
+  content: [Actualmente busco oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente como desarrollador.]
 )
 
 
-== Skills
+== Competencias Técnicas
 
 
 #one-col-entry(
-  content: [#strong[Programming Languages:] C\#, Java, Javascript, Typescript]
+  content: [#strong[Lenguajes de Programación:] C\#, Java, Javascript, Typescript]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Databases:] SQL Server, PostgreSQL, MongoDB]
+  content: [#strong[Bases de Datos:] SQL Server, PostgreSQL, MongoDB]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Technologies:] .NET, Angular, Spring, Maven, HTML, CSS, Tailwind, Bootstrap]
+  content: [#strong[Tecnologías:] .NET, Angular, Spring, Maven, HTML, CSS, Tailwind, Bootstrap]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Tools:] Git, Linux, Docker \(learning\)]
+  content: [#strong[Herramientas:] Git, Linux, Docker \(en aprendizaje\)]
 )
 
 
-== Projects
+== Proyectos Relevantes
 
 
 
 #one-col-entry(
   content: [
-    #strong[Full-stack Online Multiplayer Board Game \(El Estanciero\) ] 
+    #strong[Juego de Mesa Online Multijugador \(El Estanciero\)] 
 
     #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Collaborative development of a digital version of \"El Estanciero\", featuring real-time gameplay, user authentication, complex bussiness logic, and persistent game states. I was involved in both the frontend and backend development.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Desarrollo colaborativo de una versión digital de \"El Estanciero\", con jugabilidad en tiempo real, autenticación de usuarios, lógica de negocio compleja y persistencia de estados de juego. Participé activamente tanto en el frontend como en el backend.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend")[Backend Repo]: RESTful API in Java, Spring Boot, SQL Server, JWT auth],[#link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend")[Frontend Repo]: Angular, Typescript, Tailwind],[Architecture: Repositories, Services, Models, Handlers],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend")[Repo Backend]: API RESTful en Java, Spring Boot, SQL Server, autenticación JWT],[#link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend")[Repo Frontend]: Angular, Typescript, Tailwind],[Arquitectura: Repositorios, Servicios, Modelos, Handlers],)
   ],
 )
 
@@ -530,25 +530,25 @@
 
 #one-col-entry(
   content: [
-    #strong[Full-stack Real-Time Chat Application] 
+    #strong[Aplicación de Chat en Tiempo Real] 
 
     #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed a scalable real-time messaging platform in a collaborative environment using SignalR for low-latency, bi-directional communication. I was involved in both the frontend and backend development.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando SignalR para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema \(Full-stack\).])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#link("https://github.com/Tomilomi/chat-in-realtime-collab")[Backend Repo]: C\#, SignalR, Websockets, PostgreSQL, ASP.NET Core],[\[Frontend Repo\]: React, Tailwind],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#link("https://github.com/Tomilomi/chat-in-realtime-collab")[Repo Backend]: C\#, SignalR, Websockets, PostgreSQL, ASP.NET Core],[\[Repo Frontend\]: React, Tailwind],)
   ],
 )
 
 
 
-== Education
+== Formación Académica
 
 
 // NO DATE, NO DEGREE
 
 #one-col-entry(
   content: [
-    #strong[National Technological University \(UTN\)], Higher Technician in Software development 
+    #strong[Universidad Tecnológica Nacional \(UTN\)], Tecnicatura Universitaria en Programación en Programación \/ Desarrollo de Software 
 
     
   ],

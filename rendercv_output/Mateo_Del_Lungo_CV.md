@@ -2,40 +2,40 @@
 
 - Phone: +54 351 753 6490
 - Email: [mateodellungo@gmail.com](mailto:mateodellungo@gmail.com)
-- Location: Cordoba, Argentina
+- Location: Córdoba, Argentina
 - LinkedIn: [mateo-del-lungo](https://linkedin.com/in/mateo-del-lungo)
 - GitHub: [Mudo0](https://github.com/Mudo0)
 
 
-# Summary
+# Perfil Profesional
 
-Software Development student with a strong focus on backend. I really like solving problems, creating systems and learning about new technologies.
+Estudiante de Programación con un fuerte enfoque en desarrollo backend. Me apasiona la resolución de problemas, el diseño de sistemas y el aprendizaje continuo de nuevas tecnologías.
 
-Engaging in diverse personal projects has allowed me to sharpen my technical skills across different enviroments.
+A través de diversos proyectos personales, he fortalecido mis habilidades técnicas en distintos entornos de desarrollo.
 
-Currently i'm seeking job opportunities to apply my skills while continuing to learn and grow as a professional developer.
+Actualmente busco oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente como desarrollador.
 
-# Skills
+# Competencias Técnicas
 
-- Programming Languages: C#, Java, Javascript, Typescript
-- Databases: SQL Server, PostgreSQL, MongoDB
-- Technologies: .NET, Angular, Spring, Maven, HTML, CSS, Tailwind, Bootstrap
-- Tools: Git, Linux, Docker (learning)
-# Projects
+- Lenguajes de Programación: C#, Java, Javascript, Typescript
+- Bases de Datos: SQL Server, PostgreSQL, MongoDB
+- Tecnologías: .NET, Angular, Spring, Maven, HTML, CSS, Tailwind, Bootstrap
+- Herramientas: Git, Linux, Docker (en aprendizaje)
+# Proyectos Relevantes
 
-## Full-stack Online Multiplayer Board Game (El Estanciero) 
+## Juego de Mesa Online Multijugador (El Estanciero)
 
-- [Backend Repo](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend): RESTful API in Java, Spring Boot, SQL Server, JWT auth
-- [Frontend Repo](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend): Angular, Typescript, Tailwind
-- Architecture: Repositories, Services, Models, Handlers
+- [Repo Backend](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend): API RESTful en Java, Spring Boot, SQL Server, autenticación JWT
+- [Repo Frontend](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend): Angular, Typescript, Tailwind
+- Arquitectura: Repositorios, Servicios, Modelos, Handlers
 
-## Full-stack Real-Time Chat Application
+## Aplicación de Chat en Tiempo Real
 
-- [Backend Repo](https://github.com/Tomilomi/chat-in-realtime-collab): C#, SignalR, Websockets, PostgreSQL, ASP.NET Core
-- [Frontend Repo]: React, Tailwind
+- [Repo Backend](https://github.com/Tomilomi/chat-in-realtime-collab): C#, SignalR, Websockets, PostgreSQL, ASP.NET Core
+- [Repo Frontend]: React, Tailwind
 
-# Education
+# Formación Académica
 
-## National Technological University (UTN), Higher Technician in Software development
+## Universidad Tecnológica Nacional (UTN), Tecnicatura Universitaria en Programación in Programación / Desarrollo de Software
 
 

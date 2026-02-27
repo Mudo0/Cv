@@ -1,0 +1,98 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.3/schema.json
+cv:
+  name: Mateo Del Lungo
+  location: Córdoba, Argentina
+  email: mateodellungo@gmail.com
+  phone: +54-351-7536490
+  social_networks:
+    - network: LinkedIn
+      username: mateo-del-lungo
+    - network: GitHub
+      username: Mudo0
+  sections:
+    Perfil Profesional:
+      - Estudiante de Programación con un fuerte enfoque en desarrollo backend. Me apasiona la resolución de problemas, el diseño de sistemas y el aprendizaje continuo de nuevas tecnologías.
+      - A través de diversos proyectos personales, he fortalecido mis habilidades técnicas en distintos entornos de desarrollo.
+      - Actualmente busco oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente como desarrollador.
+    Competencias Técnicas:
+      - label: Lenguajes de Programación
+        details: C#, Java, Javascript, Typescript
+      - label: Bases de Datos
+        details: SQL Server, PostgreSQL, MongoDB
+      - label: Tecnologías
+        details: .NET, Angular, Spring, Maven, HTML, CSS, Tailwind, Bootstrap
+      - label: Herramientas
+        details: Git, Linux, Docker (en aprendizaje)
+    Proyectos Relevantes:
+      - name: "Juego de Mesa Online Multijugador (El Estanciero)"
+        summary: Desarrollo colaborativo de una versión digital de "El Estanciero", con jugabilidad en tiempo real, autenticación de usuarios, lógica de negocio compleja y persistencia de estados de juego. Participé activamente tanto en el frontend como en el backend.
+        highlights:
+          - "[Repo Backend](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend): API RESTful en Java, Spring Boot, SQL Server, autenticación JWT"
+          - "[Repo Frontend](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend): Angular, Typescript, Tailwind"
+          - "Arquitectura: Repositorios, Servicios, Modelos, Handlers"
+      - name: "Aplicación de Chat en Tiempo Real"
+        summary: Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando SignalR para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (Full-stack).
+        highlights:
+          - "[Repo Backend](https://github.com/Tomilomi/chat-in-realtime-collab): C#, SignalR, Websockets, PostgreSQL, ASP.NET Core"
+          - "[Repo Frontend]: React, Tailwind"
+    Formación Académica:
+      - institution: Universidad Tecnológica Nacional (UTN)
+        area: Programación / Desarrollo de Software
+        degree: Tecnicatura Universitaria en Programación
+
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    alignment: justified
+  header:
+    name_font_size: 25pt
+    separator_between_connections: "|"
+    use_urls_as_placeholders_for_connections: true
+  section_titles:
+    type: with-full-line
+    bold: true
+  entries:
+    date_and_location_width: 4.15cm
+    vertical_space_between_entries: 0.4cm
+  entry_types:
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, DEGREE en AREA -- LOCATION"
+
+locale:
+  language: es
+  last_updated_date_template: "Actualizado en Febrero de 2026"
+  date_template: "MONTH_FULL_NAME de YEAR"
+  present: presente
+  to: a
+  full_names_of_months:
+    - Enero
+    - Febrero
+    - Marzo
+    - Abril
+    - Mayo
+    - Junio
+    - Julio
+    - Agosto
+    - Septiembre
+    - Octubre
+    - Noviembre
+    - Diciembre
+
+rendercv_settings:
+  date: "2026-02-26"
