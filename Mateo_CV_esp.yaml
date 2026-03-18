@@ -1,14 +1,18 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.3/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.7/schema.json
 cv:
   name: Mateo Del Lungo
+  headline:
   location: Córdoba, Argentina
   email: mateodellungo@gmail.com
+  photo:
   phone: +54-351-7536490
+  website:
   social_networks:
     - network: LinkedIn
       username: mateo-del-lungo
     - network: GitHub
       username: Mudo0
+  custom_connections:
   sections:
     Perfil Profesional:
       - Estudiante de Programación con un fuerte enfoque en desarrollo backend. Me apasiona la resolución de problemas, el diseño de sistemas y el aprendizaje continuo de nuevas tecnologías.
@@ -25,62 +29,61 @@ cv:
         details: Git, Linux, Docker (en aprendizaje)
     Proyectos Relevantes:
       - name: "Juego de Mesa Online Multijugador (El Estanciero)"
+        date:
+        start_date:
+        end_date:
+        location:
         summary: Desarrollo colaborativo de una versión digital de "El Estanciero", con jugabilidad en tiempo real, autenticación de usuarios, lógica de negocio compleja y persistencia de estados de juego. Participé activamente tanto en el frontend como en el backend.
         highlights:
           - "[Repo Backend](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend): API RESTful en Java, Spring Boot, SQL Server, autenticación JWT"
           - "[Repo Frontend](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend): Angular, Typescript, Tailwind"
           - "Arquitectura: Repositorios, Servicios, Modelos, Handlers"
       - name: "Aplicación de Chat en Tiempo Real"
+        date:
+        start_date:
+        end_date:
+        location:
         summary: Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando SignalR para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (Full-stack).
         highlights:
           - "[Repo Backend](https://github.com/Tomilomi/chat-in-realtime-collab): C#, SignalR, Websockets, PostgreSQL, ASP.NET Core"
-          - "[Repo Frontend]: React, Tailwind"
+          - "[Repo Frontend](https://github.com/Tomilomi/chat-collab-react): React, Tailwind"
     Formación Académica:
       - institution: Universidad Tecnológica Nacional (UTN)
         area: Programación / Desarrollo de Software
-        degree: Tecnicatura Universitaria en Programación
+        degree: Tecnicatura Universitaria Superior
+        date:
+        start_date:
+        end_date:
+        location:
+        summary:
+        highlights:
 
 design:
   theme: engineeringresumes
-  page:
-    size: us-letter
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: false
-    show_last_updated_date: true
-  colors:
-    text: rgb(0, 0, 0)
-    name: rgb(0, 0, 0)
-    connections: rgb(0, 0, 0)
-    section_titles: rgb(0, 0, 0)
-    links: rgb(0, 0, 0)
-  text:
-    font_family: XCharter
-    font_size: 10pt
-    alignment: justified
-  header:
-    name_font_size: 25pt
-    separator_between_connections: "|"
-    use_urls_as_placeholders_for_connections: true
-  section_titles:
-    type: with-full-line
-    bold: true
-  entries:
-    date_and_location_width: 4.15cm
-    vertical_space_between_entries: 0.4cm
-  entry_types:
-    education_entry:
-      main_column_first_row_template: "**INSTITUTION**, DEGREE en AREA -- LOCATION"
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: false
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 0, 0)
+  #   headline: rgb(0, 0, 0)
+  #   connections: rgb(0, 0, 0)
+  #   section_titles: rgb(0, 0, 0)
+  #   links: rgb(0, 0, 0)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
 
 locale:
-  language: es
-  last_updated_date_template: "Actualizado en Febrero de 2026"
-  date_template: "MONTH_FULL_NAME de YEAR"
-  present: presente
-  to: a
-  full_names_of_months:
+  language: spanish
+
+  last_updated: "Actualizado en Febrero de 2026"
+
+  month_names:
     - Enero
     - Febrero
     - Marzo
@@ -94,5 +97,49 @@ locale:
     - Noviembre
     - Diciembre
 
-rendercv_settings:
-  date: "2026-02-26"
+settings:
+  current_date: today
+  render_command:
+    output_folder: spanish
+    design:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/Mateo_CV_es.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords:
+    [
+      C#,
+      Java,
+      Javascript,
+      Typescript,
+      .NET,
+      ASP.NET Core,
+      Angular,
+      React,
+      Spring,
+      Spring Boot,
+      Tailwind,
+      Bootstrap,
+      Maven,
+      SQL Server,
+      PostgreSQL,
+      MongoDB,
+      Docker,
+      Git,
+      Linux,
+      SignalR,
+      Websockets,
+      JWT,
+      API RESTful,
+      RESTful API,
+      Full-stack,
+      tiempo real,
+      real-time,
+    ]
+  pdf_title: NAME - CV - Developer
