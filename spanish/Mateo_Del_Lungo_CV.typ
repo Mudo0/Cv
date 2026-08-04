@@ -1,12 +1,12 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.2.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Mateo Del Lungo",
   title: "Mateo Del Lungo - CV - Developer",
   footer: context { [#emph[Mateo Del Lungo -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Actualizado en Abril de 2026 Abr 2026] ],
+  top-note: [ #emph[Actualizado en Ago 2026] ],
   locale-catalog-language: "es",
   text-direction: ltr,
   page-size: "us-letter",
@@ -32,11 +32,11 @@
   typography-font-family-headline: "XCharter",
   typography-font-family-connections: "XCharter",
   typography-font-family-section-titles: "XCharter",
-  typography-font-size-body: 10pt,
-  typography-font-size-name: 25pt,
-  typography-font-size-headline: 10pt,
-  typography-font-size-connections: 10pt,
-  typography-font-size-section-titles: 1.2em,
+  typography-font-size-body: 9pt,
+  typography-font-size-name: 23pt,
+  typography-font-size-headline: 9pt,
+  typography-font-size-connections: 9pt,
+  typography-font-size-section-titles: 1.1em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 21,
+    month: 8,
+    day: 4,
   ),
 )
 
@@ -101,19 +101,21 @@
 
 Estudiante de Programación con un fuerte enfoque en desarrollo backend. Me apasiona la resolución de problemas, el diseño de sistemas y el aprendizaje continuo de nuevas tecnologías.
 
-A través de diversos proyectos personales, he fortalecido mis habilidades técnicas en distintos entornos de desarrollo. Tengo experiencia haciendo tests unitarios en aplicaciones backend.
+A través de diversos proyectos personales, he fortalecido mis habilidades técnicas en distintos entornos de desarrollo.
 
 Actualmente busco oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente como desarrollador.
 
 == Competencias Técnicas
 
-#strong[Lenguajes de Programación:] C\#, #strong[Java], #strong[Javascript], #strong[Typescript]
+#strong[Lenguajes de Programación:] C\#, Java, Javascript, Typescript
 
-#strong[Bases de Datos:] #strong[SQL Server], #strong[PostgreSQL], #strong[MongoDB]
+#strong[Bases de Datos:] SQL Server, PostgreSQL, MongoDB
 
-#strong[Tecnologías:] .NET, #strong[Angular], #strong[Spring], #strong[Maven], HTML, CSS, #strong[Tailwind], #strong[Bootstrap]
+#strong[Tecnologías:] .NET, Angular, Spring Boot, Maven, SignalR, HTML, CSS, Tailwind, Bootstrap
 
-#strong[Herramientas:] #strong[Git], #strong[Linux], #strong[Docker], Testing, Opencode
+#strong[Herramientas:] Git, Linux, Docker, Testing, Playwright, CI\/CD, Cloudflare Pages
+
+#strong[Metodologías:] Scrum, Kanban, Agentic AI (Opencode)
 
 == Proyectos Relevantes
 
@@ -125,30 +127,49 @@ Actualmente busco oportunidades laborales para aplicar mis conocimientos y segui
   [
   ],
   main-column-second-row: [
-    #summary[Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando #strong[SignalR] para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (#strong[Full-stack]).]
+    #summary[Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando SignalR para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (#strong[Full-stack]).]
 
-    - #link("https://github.com/Tomilomi/chat-in-realtime-collab")[Repo Backend]: C\#, #strong[SignalR], #strong[Websockets], #strong[PostgreSQL], #strong[ASP.NET Core]
+    - #link("https://github.com/Tomilomi/chat-in-realtime-collab")[Repo Backend]: #strong[C\#, SignalR, Websockets, PostgreSQL, ASP.NET Core]
 
-    - #link("https://github.com/Tomilomi/chat-collab-react")[Repo Frontend]: #strong[React], #strong[Tailwind]
+    - #link("https://github.com/Tomilomi/chat-collab-react")[Repo Frontend]: #strong[React, Tailwind]
 
   ],
 )
 
   #regular-entry(
   [
-    #strong[Juego de Mesa Online Multijugador (El Estanciero)]
+    #strong[#link("https://pokemon-tcg-g8-1.onrender.com/welcome")[Pokémon TCG]]
 
   ],
   [
   ],
   main-column-second-row: [
-    #summary[Desarrollo colaborativo de una versión digital de \"El Estanciero\", con jugabilidad en #strong[tiempo real], autenticación de usuarios, lógica de negocio compleja y persistencia de estados de juego. Participé activamente tanto en el frontend como en el backend.]
+    #summary[Versión digital del Juego de Cartas Coleccionables de Pokémon desarrollada como proyecto universitario para la UTN. Backend en Spring Boot con Java 21 y frontend en Angular. Cuenta con un motor de juego personalizado que maneja turnos, ataques, cálculo de daño, condiciones especiales y condiciones de victoria. La sincronización multijugador en #strong[tiempo real] se realiza mediante WebSocket, con PostgreSQL para la persistencia, Flyway para las migraciones de base de datos y Docker Compose para la infraestructura contenerizada.]
 
-    - #link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend")[Repo Backend]: #strong[API RESTful] en #strong[Java], #strong[Spring Boot], #strong[SQL Server], autenticación #strong[JWT]
+    - #link("https://pokemon-tcg-g8-1.onrender.com/welcome")[Live]: #strong[Java 21, Spring Boot, WebSocket, PostgreSQL, Flyway, Docker Compose]
 
-    - #link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend")[Repo Frontend]: #strong[Angular], #strong[Typescript], #strong[Tailwind]
+    - Frontend: #strong[Angular, Typescript]
 
-    - Arquitectura: Repositorios, Servicios, Modelos, Handlers
+  ],
+)
+
+  #regular-entry(
+  [
+    #strong[#link("https://biantattoo.pages.dev/")[Portfolio Tatuajes]]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    #summary[Portfolio web para una tatuadora. Construido con Angular y TypeScript utilizando Signals y detección de cambios OnPush. Cuenta con una galería con lightbox y un formulario de contacto integrado con Google Apps Script, desplegado en Cloudflare Pages.]
+
+    - #link("https://github.com/Mudo0/portfolio-bianca")[Repo]: #strong[Angular, TypeScript, Signals, OnPush]
+
+    - #link("https://biantattoo.pages.dev/")[Live]: #strong[Google Apps Script, Cloudflare Pages]
+
+    - Seguridad: sistema anti-bot de 3 capas (honeypot, control de tiempo y rate limiting)
+
+    - Validación estricta de inputs y ofuscación de datos de contacto contra scraping
 
   ],
 )

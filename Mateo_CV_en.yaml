@@ -24,20 +24,32 @@ cv:
       - label: Databases
         details: SQL Server, PostgreSQL, MongoDB
       - label: Technologies
-        details: .NET, Angular, Spring, Maven, HTML, CSS, Tailwind, Bootstrap
+        details: .NET, Angular, Spring Boot, Maven, SignalR, HTML, CSS, Tailwind, Bootstrap
       - label: Tools
-        details: Git, Linux, Docker (learning)
+        details: Git, Linux, Docker, Testing, Playwright, CI/CD, Cloudflare Pages
+      - label: Methodologies
+        details: Scrum, Kanban, Agentic AI (Opencode)
     projects:
-      - name: "Full-stack Online Multiplayer Board Game (El Estanciero) "
+      - name: "[Pokémon TCG](https://pokemon-tcg-g8-1.onrender.com/welcome)"
         date:
         start_date:
         end_date:
         location:
-        summary: Collaborative development of a digital version of "El Estanciero", featuring real-time gameplay, user authentication, complex bussiness logic, and persistent game states. I was involved in both the frontend and backend development.
+        summary: Digital version of the Pokémon Trading Card Game developed as a university project for UTN. Built with a Spring Boot backend in Java 21 and an Angular frontend, it features a custom game engine that handles turns, attacks, damage calculation, special conditions and victory conditions. Real-time multiplayer synchronization is achieved through WebSocket, with PostgreSQL for persistence, Flyway for database migrations, and Docker Compose for containerized infrastructure.
         highlights:
-          - "[Backend Repo](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend): RESTful API in Java, Spring Boot, SQL Server, JWT auth"
-          - "[Frontend Repo](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend): Angular, Typescript, Tailwind"
-          - "Architecture: Repositories, Services, Models, Handlers"
+          - "[Live](https://pokemon-tcg-g8-1.onrender.com/welcome): **Java 21, Spring Boot, WebSocket, PostgreSQL, Flyway, Docker Compose**"
+          - "Frontend: **Angular, Typescript**"
+      - name: "[Tattoo Portfolio](https://biantattoo.pages.dev/)"
+        date:
+        start_date:
+        end_date:
+        location:
+        summary: Portfolio website for tattoo artist Bianca. Built with Angular and TypeScript using Signals and OnPush change detection, it features a gallery with lightbox and a contact form integrated with Google Apps Script, deployed on Cloudflare Pages.
+        highlights:
+          - "[Repo](https://github.com/Mudo0/portfolio-bianca): **Angular, TypeScript, Signals, OnPush**"
+          - "[Live](https://biantattoo.pages.dev/): **Google Apps Script, Cloudflare Pages**"
+          - "Security: 3-layer anti-bot system (honeypot, timing and rate limiting)"
+          - "Strict input validation and contact data obfuscation against scraping"
       - name: "[Full-stack Real-Time Chat Application](https://chat-collab-frontend.onrender.com/)"
         date:
         start_date:
@@ -45,8 +57,8 @@ cv:
         location:
         summary: Developed a scalable real-time messaging platform in a collaborative environment using SignalR for low-latency, bi-directional communication. I was involved in both the frontend and backend development.
         highlights:
-          - "[Backend Repo](https://github.com/Tomilomi/chat-in-realtime-collab): C#, SignalR, Websockets, PostgreSQL, ASP.NET Core"
-          - "[Frontend Repo](https://github.com/Tomilomi/chat-collab-react): React, Tailwind"
+          - "[Backend Repo](https://github.com/Tomilomi/chat-in-realtime-collab): **C#, SignalR, Websockets, PostgreSQL, ASP.NET Core**"
+          - "[Frontend Repo](https://github.com/Tomilomi/chat-collab-react): **React, Tailwind**"
     education:
       - institution: National Technological University (UTN)
         area: Software development
@@ -59,6 +71,13 @@ cv:
         highlights:
 design:
   theme: engineeringresumes
+  typography:
+    font_size:
+      body: 9pt
+      name: 23pt
+      headline: 9pt
+      connections: 9pt
+      section_titles: 1.1em
   # page:
   #   size: us-letter
   #   top_margin: 0.7in
@@ -235,33 +254,5 @@ settings:
     dont_generate_pdf: false
     dont_generate_png: false
   bold_keywords:
-    [
-      C#,
-      Java,
-      Javascript,
-      Typescript,
-      .NET,
-      ASP.NET Core,
-      Angular,
-      React,
-      Spring,
-      Spring Boot,
-      Tailwind,
-      Bootstrap,
-      Maven,
-      SQL Server,
-      PostgreSQL,
-      MongoDB,
-      Docker,
-      Git,
-      Linux,
-      SignalR,
-      Websockets,
-      JWT,
-      API RESTful,
-      RESTful API,
-      Full-stack,
-      tiempo real,
-      real-time,
-    ]
+    [Full-stack, tiempo real, real-time]
   pdf_title: NAME - CV - Developer
