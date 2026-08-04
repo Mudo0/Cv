@@ -6,7 +6,7 @@
   name: "Mateo Del Lungo",
   title: "Mateo Del Lungo - CV - Developer",
   footer: context { [#emph[Mateo Del Lungo -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Actualizado en Febrero de 2026 Mar 2026] ],
+  top-note: [ #emph[Actualizado en Abril de 2026 Abr 2026] ],
   locale-catalog-language: "es",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 18,
+    month: 4,
+    day: 21,
   ),
 )
 
@@ -101,7 +101,7 @@
 
 Estudiante de Programación con un fuerte enfoque en desarrollo backend. Me apasiona la resolución de problemas, el diseño de sistemas y el aprendizaje continuo de nuevas tecnologías.
 
-A través de diversos proyectos personales, he fortalecido mis habilidades técnicas en distintos entornos de desarrollo.
+A través de diversos proyectos personales, he fortalecido mis habilidades técnicas en distintos entornos de desarrollo. Tengo experiencia haciendo tests unitarios en aplicaciones backend.
 
 Actualmente busco oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente como desarrollador.
 
@@ -113,9 +113,26 @@ Actualmente busco oportunidades laborales para aplicar mis conocimientos y segui
 
 #strong[Tecnologías:] .NET, #strong[Angular], #strong[Spring], #strong[Maven], HTML, CSS, #strong[Tailwind], #strong[Bootstrap]
 
-#strong[Herramientas:] #strong[Git], #strong[Linux], #strong[Docker] (en aprendizaje)
+#strong[Herramientas:] #strong[Git], #strong[Linux], #strong[Docker], Testing, Opencode
 
 == Proyectos Relevantes
+
+  #regular-entry(
+  [
+    #strong[#link("https://chat-collab-frontend.onrender.com/")[Aplicación de Chat en Tiempo Real]]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    #summary[Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando #strong[SignalR] para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (#strong[Full-stack]).]
+
+    - #link("https://github.com/Tomilomi/chat-in-realtime-collab")[Repo Backend]: C\#, #strong[SignalR], #strong[Websockets], #strong[PostgreSQL], #strong[ASP.NET Core]
+
+    - #link("https://github.com/Tomilomi/chat-collab-react")[Repo Frontend]: #strong[React], #strong[Tailwind]
+
+  ],
+)
 
   #regular-entry(
   [
@@ -132,23 +149,6 @@ Actualmente busco oportunidades laborales para aplicar mis conocimientos y segui
     - #link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend")[Repo Frontend]: #strong[Angular], #strong[Typescript], #strong[Tailwind]
 
     - Arquitectura: Repositorios, Servicios, Modelos, Handlers
-
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[Aplicación de Chat en Tiempo Real]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    #summary[Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando #strong[SignalR] para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (#strong[Full-stack]).]
-
-    - #link("https://github.com/Tomilomi/chat-in-realtime-collab")[Repo Backend]: C\#, #strong[SignalR], #strong[Websockets], #strong[PostgreSQL], #strong[ASP.NET Core]
-
-    - #link("https://github.com/Tomilomi/chat-collab-react")[Repo Frontend]: #strong[React], #strong[Tailwind]
 
   ],
 )

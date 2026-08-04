@@ -36,7 +36,7 @@ Collaborative development of a digital version of "El Estanciero", featuring **r
 
 
 
-## ****Full-stack** Real-Time Chat Application**
+## **[**Full-stack** Real-Time Chat Application](https://chat-collab-frontend.onrender.com/)**
 
 Developed a scalable **real-time** messaging platform in a collaborative environment using **SignalR** for low-latency, bi-directional communication. I was involved in both the frontend and backend development.
 

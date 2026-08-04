@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 3,
-    day: 18,
+    day: 27,
   ),
 )
 
@@ -138,7 +138,7 @@ Currently i'm seeking job opportunities to apply my skills while continuing to l
 
   #regular-entry(
   [
-    #strong[#emph[#sym.ast.basic#h(0pt, weak: true) Full-stack]#sym.ast.basic Real-Time Chat Application]
+    #strong[#link("https://chat-collab-frontend.onrender.com/")[#strong[Full-stack] Real-Time Chat Application]]
 
   ],
   [

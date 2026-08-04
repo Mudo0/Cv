@@ -38,7 +38,7 @@ cv:
           - "[Backend Repo](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend): RESTful API in Java, Spring Boot, SQL Server, JWT auth"
           - "[Frontend Repo](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend): Angular, Typescript, Tailwind"
           - "Architecture: Repositories, Services, Models, Handlers"
-      - name: "Full-stack Real-Time Chat Application"
+      - name: "[Full-stack Real-Time Chat Application](https://chat-collab-frontend.onrender.com/)"
         date:
         start_date:
         end_date:

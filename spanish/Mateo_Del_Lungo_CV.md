@@ -10,7 +10,7 @@
 # Perfil Profesional
 Estudiante de Programación con un fuerte enfoque en desarrollo backend. Me apasiona la resolución de problemas, el diseño de sistemas y el aprendizaje continuo de nuevas tecnologías.
 
-A través de diversos proyectos personales, he fortalecido mis habilidades técnicas en distintos entornos de desarrollo.
+A través de diversos proyectos personales, he fortalecido mis habilidades técnicas en distintos entornos de desarrollo. Tengo experiencia haciendo tests unitarios en aplicaciones backend.
 
 Actualmente busco oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente como desarrollador.
 
@@ -21,9 +21,19 @@ Actualmente busco oportunidades laborales para aplicar mis conocimientos y segui
 
 **Tecnologías:** .NET, **Angular**, **Spring**, **Maven**, HTML, CSS, **Tailwind**, **Bootstrap**
 
-**Herramientas:** **Git**, **Linux**, **Docker** (en aprendizaje)
+**Herramientas:** **Git**, **Linux**, **Docker**, Testing, Opencode
 
 # Proyectos Relevantes
+## **[Aplicación de Chat en Tiempo Real](https://chat-collab-frontend.onrender.com/)**
+
+Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando **SignalR** para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (**Full-stack**).
+
+- [Repo Backend](https://github.com/Tomilomi/chat-in-realtime-collab): C#, **SignalR**, **Websockets**, **PostgreSQL**, **ASP.NET Core**
+
+- [Repo Frontend](https://github.com/Tomilomi/chat-collab-react): **React**, **Tailwind**
+
+
+
 ## **Juego de Mesa Online Multijugador (El Estanciero)**
 
 Desarrollo colaborativo de una versión digital de "El Estanciero", con jugabilidad en **tiempo real**, autenticación de usuarios, lógica de negocio compleja y persistencia de estados de juego. Participé activamente tanto en el frontend como en el backend.
@@ -33,16 +43,6 @@ Desarrollo colaborativo de una versión digital de "El Estanciero", con jugabili
 - [Repo Frontend](https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend): **Angular**, **Typescript**, **Tailwind**
 
 - Arquitectura: Repositorios, Servicios, Modelos, Handlers
-
-
-
-## **Aplicación de Chat en Tiempo Real**
-
-Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando **SignalR** para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (**Full-stack**).
-
-- [Repo Backend](https://github.com/Tomilomi/chat-in-realtime-collab): C#, **SignalR**, **Websockets**, **PostgreSQL**, **ASP.NET Core**
-
-- [Repo Frontend](https://github.com/Tomilomi/chat-collab-react): **React**, **Tailwind**
 
 
 
