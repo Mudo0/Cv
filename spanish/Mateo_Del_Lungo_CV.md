@@ -19,9 +19,9 @@ Actualmente busco oportunidades laborales para aplicar mis conocimientos y segui
 
 **Bases de Datos:** SQL Server, PostgreSQL, MongoDB
 
-**Tecnologías:** .NET, Angular, Spring Boot, Maven, SignalR, HTML, CSS, Tailwind, Bootstrap
+**Tecnologías:** .NET, Angular, Spring Boot, Maven, SignalR, JWT, Microservicios, HTML, CSS, Tailwind, Bootstrap
 
-**Herramientas:** Git, Linux, Docker, Testing, Playwright, CI/CD, Cloudflare Pages
+**Herramientas:** Git, Linux, Docker, Testing, Playwright, CI/CD, GitHub Actions, Cloudflare Pages
 
 **Metodologías:** Scrum, Kanban, Agentic AI (Opencode)
 
@@ -30,7 +30,7 @@ Actualmente busco oportunidades laborales para aplicar mis conocimientos y segui
 
 Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando SignalR para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (**Full-stack**).
 
-- [Repo Backend](https://github.com/Tomilomi/chat-in-realtime-collab): **C#, SignalR, Websockets, PostgreSQL, ASP.NET Core**
+- [Repo Backend](https://github.com/Tomilomi/chat-in-realtime-collab): **C#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core**
 
 - [Repo Frontend](https://github.com/Tomilomi/chat-collab-react): **React, Tailwind**
 
@@ -40,7 +40,7 @@ Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo
 
 Versión digital del Juego de Cartas Coleccionables de Pokémon desarrollada como proyecto universitario para la UTN. Backend en Spring Boot con Java 21 y frontend en Angular. Cuenta con un motor de juego personalizado que maneja turnos, ataques, cálculo de daño, condiciones especiales y condiciones de victoria. La sincronización multijugador en **tiempo real** se realiza mediante WebSocket, con PostgreSQL para la persistencia, Flyway para las migraciones de base de datos y Docker Compose para la infraestructura contenerizada.
 
-- [Live](https://pokemon-tcg-g8-1.onrender.com/welcome): **Java 21, Spring Boot, WebSocket, PostgreSQL, Flyway, Docker Compose**
+- [Live](https://pokemon-tcg-g8-1.onrender.com/welcome): **Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose**
 
 - Frontend: **Angular, Typescript**
 

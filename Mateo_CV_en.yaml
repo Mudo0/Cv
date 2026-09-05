@@ -24,9 +24,9 @@ cv:
       - label: Databases
         details: SQL Server, PostgreSQL, MongoDB
       - label: Technologies
-        details: .NET, Angular, Spring Boot, Maven, SignalR, HTML, CSS, Tailwind, Bootstrap
+        details: .NET, Angular, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap
       - label: Tools
-        details: Git, Linux, Docker, Testing, Playwright, CI/CD, Cloudflare Pages
+        details: Git, Linux, Docker, Testing, Playwright, CI/CD, GitHub Actions, Cloudflare Pages
       - label: Methodologies
         details: Scrum, Kanban, Agentic AI (Opencode)
     projects:
@@ -37,7 +37,7 @@ cv:
         location:
         summary: Digital version of the Pokémon Trading Card Game developed as a university project for UTN. Built with a Spring Boot backend in Java 21 and an Angular frontend, it features a custom game engine that handles turns, attacks, damage calculation, special conditions and victory conditions. Real-time multiplayer synchronization is achieved through WebSocket, with PostgreSQL for persistence, Flyway for database migrations, and Docker Compose for containerized infrastructure.
         highlights:
-          - "[Live](https://pokemon-tcg-g8-1.onrender.com/welcome): **Java 21, Spring Boot, WebSocket, PostgreSQL, Flyway, Docker Compose**"
+          - "[Live](https://pokemon-tcg-g8-1.onrender.com/welcome): **Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose**"
           - "Frontend: **Angular, Typescript**"
       - name: "[Tattoo Portfolio](https://biantattoo.pages.dev/)"
         date:
@@ -57,7 +57,7 @@ cv:
         location:
         summary: Developed a scalable real-time messaging platform in a collaborative environment using SignalR for low-latency, bi-directional communication. I was involved in both the frontend and backend development.
         highlights:
-          - "[Backend Repo](https://github.com/Tomilomi/chat-in-realtime-collab): **C#, SignalR, Websockets, PostgreSQL, ASP.NET Core**"
+          - "[Backend Repo](https://github.com/Tomilomi/chat-in-realtime-collab): **C#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core**"
           - "[Frontend Repo](https://github.com/Tomilomi/chat-collab-react): **React, Tailwind**"
     education:
       - institution: National Technological University (UTN)

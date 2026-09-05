@@ -6,7 +6,7 @@
   name: "Mateo Del Lungo",
   title: "Mateo Del Lungo - CV - Developer",
   footer: context { [#emph[Mateo Del Lungo -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Actualizado en Ago 2026] ],
+  top-note: [ #emph[Actualizado en Sep 2026] ],
   locale-catalog-language: "es",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 8,
-    day: 4,
+    month: 9,
+    day: 5,
   ),
 )
 
@@ -111,9 +111,9 @@ Actualmente busco oportunidades laborales para aplicar mis conocimientos y segui
 
 #strong[Bases de Datos:] SQL Server, PostgreSQL, MongoDB
 
-#strong[Tecnologías:] .NET, Angular, Spring Boot, Maven, SignalR, HTML, CSS, Tailwind, Bootstrap
+#strong[Tecnologías:] .NET, Angular, Spring Boot, Maven, SignalR, JWT, Microservicios, HTML, CSS, Tailwind, Bootstrap
 
-#strong[Herramientas:] Git, Linux, Docker, Testing, Playwright, CI\/CD, Cloudflare Pages
+#strong[Herramientas:] Git, Linux, Docker, Testing, Playwright, CI\/CD, GitHub Actions, Cloudflare Pages
 
 #strong[Metodologías:] Scrum, Kanban, Agentic AI (Opencode)
 
@@ -129,7 +129,7 @@ Actualmente busco oportunidades laborales para aplicar mis conocimientos y segui
   main-column-second-row: [
     #summary[Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando SignalR para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (#strong[Full-stack]).]
 
-    - #link("https://github.com/Tomilomi/chat-in-realtime-collab")[Repo Backend]: #strong[C\#, SignalR, Websockets, PostgreSQL, ASP.NET Core]
+    - #link("https://github.com/Tomilomi/chat-in-realtime-collab")[Repo Backend]: #strong[C\#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core]
 
     - #link("https://github.com/Tomilomi/chat-collab-react")[Repo Frontend]: #strong[React, Tailwind]
 
@@ -146,7 +146,7 @@ Actualmente busco oportunidades laborales para aplicar mis conocimientos y segui
   main-column-second-row: [
     #summary[Versión digital del Juego de Cartas Coleccionables de Pokémon desarrollada como proyecto universitario para la UTN. Backend en Spring Boot con Java 21 y frontend en Angular. Cuenta con un motor de juego personalizado que maneja turnos, ataques, cálculo de daño, condiciones especiales y condiciones de victoria. La sincronización multijugador en #strong[tiempo real] se realiza mediante WebSocket, con PostgreSQL para la persistencia, Flyway para las migraciones de base de datos y Docker Compose para la infraestructura contenerizada.]
 
-    - #link("https://pokemon-tcg-g8-1.onrender.com/welcome")[Live]: #strong[Java 21, Spring Boot, WebSocket, PostgreSQL, Flyway, Docker Compose]
+    - #link("https://pokemon-tcg-g8-1.onrender.com/welcome")[Live]: #strong[Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose]
 
     - Frontend: #strong[Angular, Typescript]
 

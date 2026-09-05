@@ -1,12 +1,12 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.2.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Mateo Del Lungo",
   title: "Mateo Del Lungo - CV - Developer",
   footer: context { [#emph[Mateo Del Lungo -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in Sept 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -32,11 +32,11 @@
   typography-font-family-headline: "XCharter",
   typography-font-family-connections: "XCharter",
   typography-font-family-section-titles: "XCharter",
-  typography-font-size-body: 10pt,
-  typography-font-size-name: 25pt,
-  typography-font-size-headline: 10pt,
-  typography-font-size-connections: 10pt,
-  typography-font-size-section-titles: 1.2em,
+  typography-font-size-body: 9pt,
+  typography-font-size-name: 23pt,
+  typography-font-size-headline: 9pt,
+  typography-font-size-connections: 9pt,
+  typography-font-size-section-titles: 1.1em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 27,
+    month: 9,
+    day: 5,
   ),
 )
 
@@ -107,31 +107,52 @@ Currently i'm seeking job opportunities to apply my skills while continuing to l
 
 == Skills
 
-#strong[Programming Languages:] C\#, #strong[Java], #strong[Javascript], #strong[Typescript]
+#strong[Programming Languages:] C\#, Java, Javascript, Typescript
 
-#strong[Databases:] #strong[SQL Server], #strong[PostgreSQL], #strong[MongoDB]
+#strong[Databases:] SQL Server, PostgreSQL, MongoDB
 
-#strong[Technologies:] .NET, #strong[Angular], #strong[Spring], #strong[Maven], HTML, CSS, #strong[Tailwind], #strong[Bootstrap]
+#strong[Technologies:] .NET, Angular, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap
 
-#strong[Tools:] #strong[Git], #strong[Linux], #strong[Docker] (learning)
+#strong[Tools:] Git, Linux, Docker, Testing, Playwright, CI\/CD, GitHub Actions, Cloudflare Pages
+
+#strong[Methodologies:] Scrum, Kanban, Agentic AI (Opencode)
 
 == Projects
 
   #regular-entry(
   [
-    #strong[#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) Full-stack] Online Multiplayer Board Game (El Estanciero) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) 
+    #strong[#link("https://pokemon-tcg-g8-1.onrender.com/welcome")[Pokémon TCG]]
 
   ],
   [
   ],
   main-column-second-row: [
-    #summary[Collaborative development of a digital version of \"El Estanciero\", featuring #strong[real-time] gameplay, user authentication, complex bussiness logic, and persistent game states. I was involved in both the frontend and backend development.]
+    #summary[Digital version of the Pokémon Trading Card Game developed as a university project for UTN. Built with a Spring Boot backend in Java 21 and an Angular frontend, it features a custom game engine that handles turns, attacks, damage calculation, special conditions and victory conditions. Real-time multiplayer synchronization is achieved through WebSocket, with PostgreSQL for persistence, Flyway for database migrations, and Docker Compose for containerized infrastructure.]
 
-    - #link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Backend")[Backend Repo]: #strong[RESTful API] in #strong[Java], #strong[Spring Boot], #strong[SQL Server], #strong[JWT] auth
+    - #link("https://pokemon-tcg-g8-1.onrender.com/welcome")[Live]: #strong[Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose]
 
-    - #link("https://github.com/Grupo-Prog/Proyecto-EstancieroWebApp-Frontend")[Frontend Repo]: #strong[Angular], #strong[Typescript], #strong[Tailwind]
+    - Frontend: #strong[Angular, Typescript]
 
-    - Architecture: Repositories, Services, Models, Handlers
+  ],
+)
+
+  #regular-entry(
+  [
+    #strong[#link("https://biantattoo.pages.dev/")[Tattoo Portfolio]]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    #summary[Portfolio website for tattoo artist Bianca. Built with Angular and TypeScript using Signals and OnPush change detection, it features a gallery with lightbox and a contact form integrated with Google Apps Script, deployed on Cloudflare Pages.]
+
+    - #link("https://github.com/Mudo0/portfolio-bianca")[Repo]: #strong[Angular, TypeScript, Signals, OnPush]
+
+    - #link("https://biantattoo.pages.dev/")[Live]: #strong[Google Apps Script, Cloudflare Pages]
+
+    - Security: 3-layer anti-bot system (honeypot, timing and rate limiting)
+
+    - Strict input validation and contact data obfuscation against scraping
 
   ],
 )
@@ -144,11 +165,11 @@ Currently i'm seeking job opportunities to apply my skills while continuing to l
   [
   ],
   main-column-second-row: [
-    #summary[Developed a scalable #strong[real-time] messaging platform in a collaborative environment using #strong[SignalR] for low-latency, bi-directional communication. I was involved in both the frontend and backend development.]
+    #summary[Developed a scalable #strong[real-time] messaging platform in a collaborative environment using SignalR for low-latency, bi-directional communication. I was involved in both the frontend and backend development.]
 
-    - #link("https://github.com/Tomilomi/chat-in-realtime-collab")[Backend Repo]: C\#, #strong[SignalR], #strong[Websockets], #strong[PostgreSQL], #strong[ASP.NET Core]
+    - #link("https://github.com/Tomilomi/chat-in-realtime-collab")[Backend Repo]: #strong[C\#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core]
 
-    - #link("https://github.com/Tomilomi/chat-collab-react")[Frontend Repo]: #strong[React], #strong[Tailwind]
+    - #link("https://github.com/Tomilomi/chat-collab-react")[Frontend Repo]: #strong[React, Tailwind]
 
   ],
 )
