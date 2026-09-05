@@ -20,11 +20,11 @@ cv:
       - Actualmente busco oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente como desarrollador.
     Competencias Técnicas:
       - label: Lenguajes de Programación
-        details: C#, Java, Javascript, Typescript
+        details: C#, Java, Kotlin, Javascript, Typescript
       - label: Bases de Datos
         details: SQL Server, PostgreSQL, MongoDB
       - label: Tecnologías
-        details: .NET, Angular, Spring Boot, Maven, SignalR, JWT, Microservicios, HTML, CSS, Tailwind, Bootstrap
+        details: .NET, Angular, Capacitor, Spring Boot, Maven, SignalR, JWT, Microservicios, HTML, CSS, Tailwind, Bootstrap
       - label: Herramientas
         details: Git, Linux, Docker, Testing, Playwright, CI/CD, GitHub Actions, Cloudflare Pages
       - label: Metodologías

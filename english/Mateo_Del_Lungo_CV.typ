@@ -107,11 +107,11 @@ Currently i'm seeking job opportunities to apply my skills while continuing to l
 
 == Skills
 
-#strong[Programming Languages:] C\#, Java, Javascript, Typescript
+#strong[Programming Languages:] C\#, Java, Kotlin, Javascript, Typescript
 
 #strong[Databases:] SQL Server, PostgreSQL, MongoDB
 
-#strong[Technologies:] .NET, Angular, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap
+#strong[Technologies:] .NET, Angular, Capacitor, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap
 
 #strong[Tools:] Git, Linux, Docker, Testing, Playwright, CI\/CD, GitHub Actions, Cloudflare Pages
 

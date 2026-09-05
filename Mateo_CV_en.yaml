@@ -20,11 +20,11 @@ cv:
       - Currently i'm seeking job opportunities to apply my skills while continuing to learn and grow as a professional developer.
     skills:
       - label: Programming Languages
-        details: C#, Java, Javascript, Typescript
+        details: C#, Java, Kotlin, Javascript, Typescript
       - label: Databases
         details: SQL Server, PostgreSQL, MongoDB
       - label: Technologies
-        details: .NET, Angular, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap
+        details: .NET, Angular, Capacitor, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap
       - label: Tools
         details: Git, Linux, Docker, Testing, Playwright, CI/CD, GitHub Actions, Cloudflare Pages
       - label: Methodologies

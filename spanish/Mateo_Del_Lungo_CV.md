@@ -15,11 +15,11 @@ A través de diversos proyectos personales, he fortalecido mis habilidades técn
 Actualmente busco oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente como desarrollador.
 
 # Competencias Técnicas
-**Lenguajes de Programación:** C#, Java, Javascript, Typescript
+**Lenguajes de Programación:** C#, Java, Kotlin, Javascript, Typescript
 
 **Bases de Datos:** SQL Server, PostgreSQL, MongoDB
 
-**Tecnologías:** .NET, Angular, Spring Boot, Maven, SignalR, JWT, Microservicios, HTML, CSS, Tailwind, Bootstrap
+**Tecnologías:** .NET, Angular, Capacitor, Spring Boot, Maven, SignalR, JWT, Microservicios, HTML, CSS, Tailwind, Bootstrap
 
 **Herramientas:** Git, Linux, Docker, Testing, Playwright, CI/CD, GitHub Actions, Cloudflare Pages
 

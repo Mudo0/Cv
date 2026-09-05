@@ -15,11 +15,11 @@ Engaging in diverse personal projects has allowed me to sharpen my technical ski
 Currently i'm seeking job opportunities to apply my skills while continuing to learn and grow as a professional developer.
 
 # Skills
-**Programming Languages:** C#, Java, Javascript, Typescript
+**Programming Languages:** C#, Java, Kotlin, Javascript, Typescript
 
 **Databases:** SQL Server, PostgreSQL, MongoDB
 
-**Technologies:** .NET, Angular, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap
+**Technologies:** .NET, Angular, Capacitor, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap
 
 **Tools:** Git, Linux, Docker, Testing, Playwright, CI/CD, GitHub Actions, Cloudflare Pages
 

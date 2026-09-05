@@ -107,11 +107,11 @@ Actualmente busco oportunidades laborales para aplicar mis conocimientos y segui
 
 == Competencias Técnicas
 
-#strong[Lenguajes de Programación:] C\#, Java, Javascript, Typescript
+#strong[Lenguajes de Programación:] C\#, Java, Kotlin, Javascript, Typescript
 
 #strong[Bases de Datos:] SQL Server, PostgreSQL, MongoDB
 
-#strong[Tecnologías:] .NET, Angular, Spring Boot, Maven, SignalR, JWT, Microservicios, HTML, CSS, Tailwind, Bootstrap
+#strong[Tecnologías:] .NET, Angular, Capacitor, Spring Boot, Maven, SignalR, JWT, Microservicios, HTML, CSS, Tailwind, Bootstrap
 
 #strong[Herramientas:] Git, Linux, Docker, Testing, Playwright, CI\/CD, GitHub Actions, Cloudflare Pages
 
