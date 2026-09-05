@@ -142,44 +142,48 @@ Currently i'm seeking job opportunities to apply my skills while continuing to l
 
 == Skills
 
-#strong[Programming Languages:] #rendercv-tags("C#, Java, Kotlin, Javascript, Typescript")
+#strong[Programming Languages:] C\#, Java, Kotlin, Javascript, Typescript
 
-#strong[Databases:] #rendercv-tags("SQL Server, PostgreSQL, MongoDB")
+#strong[Databases:] SQL Server, PostgreSQL, MongoDB
 
-#strong[Technologies:] #rendercv-tags(".NET, Angular, Capacitor, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap")
+#strong[Technologies:] .NET, Angular, Capacitor, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap
 
-#strong[Tools:] #rendercv-tags("Git, Linux, Docker, Testing, Playwright, CI/CD, GitHub Actions, Cloudflare Pages")
+#strong[Tools:] Git, Linux, Docker, Testing, Playwright, CI\/CD, GitHub Actions, Cloudflare Pages
 
-#strong[Methodologies:] #rendercv-tags("Scrum, Kanban, Agentic AI - Opencode")
+#strong[Methodologies:] Scrum, Kanban, Agentic AI (Opencode)
 
 == Projects
 
   #regular-entry(
   [
-    #strong[Pokémon TCG #link("https://pokemon-tcg-g8-1.onrender.com/welcome")[\[Live\]] #link("https://github.com/Lantieridev/pokemon-tcg")[\[Repo\]]]
+    #strong[#link("https://pokemon-tcg-g8-1.onrender.com/welcome")[Pokémon TCG]]
 
   ],
   [
   ],
   main-column-second-row: [
-    #rendercv-tags("Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose, Angular, TypeScript")
-
     #summary[Digital version of the Pokémon Trading Card Game developed as a university project for UTN. Built with a Spring Boot backend in Java 21 and an Angular frontend, it features a custom game engine that handles turns, attacks, damage calculation, special conditions and victory conditions. Real-time multiplayer synchronization is achieved through WebSocket, with PostgreSQL for persistence, Flyway for database migrations, and Docker Compose for containerized infrastructure.]
+
+    - #link("https://pokemon-tcg-g8-1.onrender.com/welcome")[Live]: #strong[Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose]
+
+    - Frontend: #strong[Angular, Typescript]
 
   ],
 )
 
   #regular-entry(
   [
-    #strong[Tattoo Portfolio #link("https://biantattoo.pages.dev/")[\[Live\]] #link("https://github.com/Mudo0/portfolio-bianca")[\[Repo\]]]
+    #strong[#link("https://biantattoo.pages.dev/")[Tattoo Portfolio]]
 
   ],
   [
   ],
   main-column-second-row: [
-    #rendercv-tags("Angular, TypeScript, Signals, OnPush, Google Apps Script, Cloudflare Pages")
-
     #summary[Portfolio website for tattoo artist Bianca. Built with Angular and TypeScript using Signals and OnPush change detection, it features a gallery with lightbox and a contact form integrated with Google Apps Script, deployed on Cloudflare Pages.]
+
+    - #link("https://github.com/Mudo0/portfolio-bianca")[Repo]: #strong[Angular, TypeScript, Signals, OnPush]
+
+    - #link("https://biantattoo.pages.dev/")[Live]: #strong[Google Apps Script, Cloudflare Pages]
 
     - Security: 3-layer anti-bot system (honeypot, timing and rate limiting)
 
@@ -190,15 +194,17 @@ Currently i'm seeking job opportunities to apply my skills while continuing to l
 
   #regular-entry(
   [
-    #strong[Full-stack Real-Time Chat Application #link("https://chat-collab-frontend.onrender.com/")[\[Live\]] #link("https://github.com/Tomilomi/chat-collab-react")[\[Frontend\]] #link("https://github.com/Tomilomi/chat-in-realtime-collab")[\[Backend\]]]
+    #strong[#link("https://chat-collab-frontend.onrender.com/")[#strong[Full-stack] Real-Time Chat Application]]
 
   ],
   [
   ],
   main-column-second-row: [
-    #rendercv-tags("C#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core, React, Tailwind")
-
     #summary[Developed a scalable #strong[real-time] messaging platform in a collaborative environment using SignalR for low-latency, bi-directional communication. I was involved in both the frontend and backend development.]
+
+    - #link("https://github.com/Tomilomi/chat-in-realtime-collab")[Backend Repo]: #strong[C\#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core]
+
+    - #link("https://github.com/Tomilomi/chat-collab-react")[Frontend Repo]: #strong[React, Tailwind]
 
   ],
 )

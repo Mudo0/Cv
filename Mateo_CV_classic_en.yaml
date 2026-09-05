@@ -28,32 +28,37 @@ cv:
       - label: Tools
         details: Git, Linux, Docker, Testing, Playwright, CI/CD, GitHub Actions, Cloudflare Pages
       - label: Methodologies
-        details: Scrum, Kanban, Agentic AI - Opencode
+        details: Scrum, Kanban, Agentic AI (Opencode)
     projects:
-      - name: "Pokémon TCG [[Live]](https://pokemon-tcg-g8-1.onrender.com/welcome) [[Repo]](https://github.com/Lantieridev/pokemon-tcg)"
+      - name: "[Pokémon TCG](https://pokemon-tcg-g8-1.onrender.com/welcome)"
         date:
         start_date:
         end_date:
         location:
-        tags: '#rendercv-tags("Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose, Angular, TypeScript")'
         summary: Digital version of the Pokémon Trading Card Game developed as a university project for UTN. Built with a Spring Boot backend in Java 21 and an Angular frontend, it features a custom game engine that handles turns, attacks, damage calculation, special conditions and victory conditions. Real-time multiplayer synchronization is achieved through WebSocket, with PostgreSQL for persistence, Flyway for database migrations, and Docker Compose for containerized infrastructure.
-      - name: "Tattoo Portfolio [[Live]](https://biantattoo.pages.dev/) [[Repo]](https://github.com/Mudo0/portfolio-bianca)"
+        highlights:
+          - "[Live](https://pokemon-tcg-g8-1.onrender.com/welcome): **Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose**"
+          - "Frontend: **Angular, Typescript**"
+      - name: "[Tattoo Portfolio](https://biantattoo.pages.dev/)"
         date:
         start_date:
         end_date:
         location:
-        tags: '#rendercv-tags("Angular, TypeScript, Signals, OnPush, Google Apps Script, Cloudflare Pages")'
         summary: Portfolio website for tattoo artist Bianca. Built with Angular and TypeScript using Signals and OnPush change detection, it features a gallery with lightbox and a contact form integrated with Google Apps Script, deployed on Cloudflare Pages.
         highlights:
+          - "[Repo](https://github.com/Mudo0/portfolio-bianca): **Angular, TypeScript, Signals, OnPush**"
+          - "[Live](https://biantattoo.pages.dev/): **Google Apps Script, Cloudflare Pages**"
           - "Security: 3-layer anti-bot system (honeypot, timing and rate limiting)"
           - "Strict input validation and contact data obfuscation against scraping"
-      - name: "Full-stack Real-Time Chat Application [[Live]](https://chat-collab-frontend.onrender.com/) [[Frontend]](https://github.com/Tomilomi/chat-collab-react) [[Backend]](https://github.com/Tomilomi/chat-in-realtime-collab)"
+      - name: "[Full-stack Real-Time Chat Application](https://chat-collab-frontend.onrender.com/)"
         date:
         start_date:
         end_date:
         location:
-        tags: '#rendercv-tags("C#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core, React, Tailwind")'
         summary: Developed a scalable real-time messaging platform in a collaborative environment using SignalR for low-latency, bi-directional communication. I was involved in both the frontend and backend development.
+        highlights:
+          - "[Backend Repo](https://github.com/Tomilomi/chat-in-realtime-collab): **C#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core**"
+          - "[Frontend Repo](https://github.com/Tomilomi/chat-collab-react): **React, Tailwind**"
     education:
       - institution: National Technological University (UTN)
         area: Software development
@@ -162,20 +167,40 @@ design:
   #     space_above: 0.08cm
   #     space_between_items: 0.08cm
   #     space_between_bullet_and_text: 0.3em
-  templates:
-    one_line_entry:
-      # DETAILS is passed as the argument of #rendercv-tags(...), which
-      # renders each ", "-separated item as a pill (PDF/PNG only).
-      main_column: '**LABEL:** #rendercv-tags("DETAILS")'
-    normal_entry:
-      # TAGS is a custom key on each project entry (see the projects
-      # section); the #rendercv-tags(...) command is preserved and
-      # rendered as rounded pills in the PDF.
-      main_column: |-
-        **NAME** -- **LOCATION**
-        TAGS
-        SUMMARY
-        HIGHLIGHTS
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, DEGREE_WITH_AREA -- LOCATION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column:
+  #     date_and_location_column: DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME** -- **LOCATION**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **POSITION**, COMPANY -- LOCATION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
 locale:
   language: english
   # last_updated: Last updated in
@@ -215,7 +240,7 @@ locale:
 settings:
   current_date: today
   render_command:
-    output_folder: english
+    output_folder: english_classic
     design:
     locale: null
     typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
@@ -229,5 +254,5 @@ settings:
     dont_generate_pdf: false
     dont_generate_png: false
   bold_keywords:
-    [tiempo real, real-time]
+    [Full-stack, tiempo real, real-time]
   pdf_title: NAME - CV - Developer

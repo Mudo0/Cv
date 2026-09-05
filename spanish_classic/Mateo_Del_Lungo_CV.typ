@@ -6,8 +6,8 @@
   name: "Mateo Del Lungo",
   title: "Mateo Del Lungo - CV - Developer",
   footer: context { [#emph[Mateo Del Lungo -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Sept 2026] ],
-  locale-catalog-language: "en",
+  top-note: [ #emph[Actualizado en Sep 2026] ],
+  locale-catalog-language: "es",
   text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 0.7in,
@@ -124,7 +124,7 @@
 = Mateo Del Lungo
 
 #connections(
-  [Cordoba, Argentina],
+  [Córdoba, Argentina],
   [#link("mailto:mateodellungo@gmail.com", icon: false, if-underline: false, if-color: false)[mateodellungo\@gmail.com]],
   [#link("tel:+54-351-753-6490", icon: false, if-underline: false, if-color: false)[0351 753-6490]],
   [#link("https://linkedin.com/in/mateo-del-lungo", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/mateo-del-lungo]],
@@ -132,82 +132,88 @@
 )
 
 
-== Summary
+== Perfil Profesional
 
-Software Development student with a strong focus on backend. I really like solving problems, creating systems and learning about new technologies.
+Estudiante de Programación con un fuerte enfoque en desarrollo backend. Me apasiona la resolución de problemas, el diseño de sistemas y el aprendizaje continuo de nuevas tecnologías.
 
-Engaging in diverse personal projects has allowed me to sharpen my technical skills across different enviroments.
+A través de diversos proyectos personales, he fortalecido mis habilidades técnicas en distintos entornos de desarrollo.
 
-Currently i'm seeking job opportunities to apply my skills while continuing to learn and grow as a professional developer.
+Actualmente busco oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente como desarrollador.
 
-== Skills
+== Competencias Técnicas
 
-#strong[Programming Languages:] #rendercv-tags("C#, Java, Kotlin, Javascript, Typescript")
+#strong[Lenguajes de Programación:] C\#, Java, Kotlin, Javascript, Typescript
 
-#strong[Databases:] #rendercv-tags("SQL Server, PostgreSQL, MongoDB")
+#strong[Bases de Datos:] SQL Server, PostgreSQL, MongoDB
 
-#strong[Technologies:] #rendercv-tags(".NET, Angular, Capacitor, Spring Boot, Maven, SignalR, JWT, Microservices, HTML, CSS, Tailwind, Bootstrap")
+#strong[Tecnologías:] .NET, Angular, Capacitor, Spring Boot, Maven, SignalR, JWT, Microservicios, HTML, CSS, Tailwind, Bootstrap
 
-#strong[Tools:] #rendercv-tags("Git, Linux, Docker, Testing, Playwright, CI/CD, GitHub Actions, Cloudflare Pages")
+#strong[Herramientas:] Git, Linux, Docker, Testing, Playwright, CI\/CD, GitHub Actions, Cloudflare Pages
 
-#strong[Methodologies:] #rendercv-tags("Scrum, Kanban, Agentic AI - Opencode")
+#strong[Metodologías:] Scrum, Kanban, Agentic AI (Opencode)
 
-== Projects
+== Proyectos Relevantes
 
   #regular-entry(
   [
-    #strong[Pokémon TCG #link("https://pokemon-tcg-g8-1.onrender.com/welcome")[\[Live\]] #link("https://github.com/Lantieridev/pokemon-tcg")[\[Repo\]]]
+    #strong[#link("https://chat-collab-frontend.onrender.com/")[Aplicación de Chat en Tiempo Real]]
 
   ],
   [
   ],
   main-column-second-row: [
-    #rendercv-tags("Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose, Angular, TypeScript")
+    #summary[Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando SignalR para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (#strong[Full-stack]).]
 
-    #summary[Digital version of the Pokémon Trading Card Game developed as a university project for UTN. Built with a Spring Boot backend in Java 21 and an Angular frontend, it features a custom game engine that handles turns, attacks, damage calculation, special conditions and victory conditions. Real-time multiplayer synchronization is achieved through WebSocket, with PostgreSQL for persistence, Flyway for database migrations, and Docker Compose for containerized infrastructure.]
+    - #link("https://github.com/Tomilomi/chat-in-realtime-collab")[Repo Backend]: #strong[C\#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core]
+
+    - #link("https://github.com/Tomilomi/chat-collab-react")[Repo Frontend]: #strong[React, Tailwind]
 
   ],
 )
 
   #regular-entry(
   [
-    #strong[Tattoo Portfolio #link("https://biantattoo.pages.dev/")[\[Live\]] #link("https://github.com/Mudo0/portfolio-bianca")[\[Repo\]]]
+    #strong[#link("https://pokemon-tcg-g8-1.onrender.com/welcome")[Pokémon TCG]]
 
   ],
   [
   ],
   main-column-second-row: [
-    #rendercv-tags("Angular, TypeScript, Signals, OnPush, Google Apps Script, Cloudflare Pages")
+    #summary[Versión digital del Juego de Cartas Coleccionables de Pokémon desarrollada como proyecto universitario para la UTN. Backend en Spring Boot con Java 21 y frontend en Angular. Cuenta con un motor de juego personalizado que maneja turnos, ataques, cálculo de daño, condiciones especiales y condiciones de victoria. La sincronización multijugador en #strong[tiempo real] se realiza mediante WebSocket, con PostgreSQL para la persistencia, Flyway para las migraciones de base de datos y Docker Compose para la infraestructura contenerizada.]
 
-    #summary[Portfolio website for tattoo artist Bianca. Built with Angular and TypeScript using Signals and OnPush change detection, it features a gallery with lightbox and a contact form integrated with Google Apps Script, deployed on Cloudflare Pages.]
+    - #link("https://pokemon-tcg-g8-1.onrender.com/welcome")[Live]: #strong[Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose]
 
-    - Security: 3-layer anti-bot system (honeypot, timing and rate limiting)
-
-    - Strict input validation and contact data obfuscation against scraping
+    - Frontend: #strong[Angular, Typescript]
 
   ],
 )
 
   #regular-entry(
   [
-    #strong[Full-stack Real-Time Chat Application #link("https://chat-collab-frontend.onrender.com/")[\[Live\]] #link("https://github.com/Tomilomi/chat-collab-react")[\[Frontend\]] #link("https://github.com/Tomilomi/chat-in-realtime-collab")[\[Backend\]]]
+    #strong[#link("https://biantattoo.pages.dev/")[Portfolio Tatuajes]]
 
   ],
   [
   ],
   main-column-second-row: [
-    #rendercv-tags("C#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core, React, Tailwind")
+    #summary[Portfolio web para una tatuadora. Construido con Angular y TypeScript utilizando Signals y detección de cambios OnPush. Cuenta con una galería con lightbox y un formulario de contacto integrado con Google Apps Script, desplegado en Cloudflare Pages.]
 
-    #summary[Developed a scalable #strong[real-time] messaging platform in a collaborative environment using SignalR for low-latency, bi-directional communication. I was involved in both the frontend and backend development.]
+    - #link("https://github.com/Mudo0/portfolio-bianca")[Repo]: #strong[Angular, TypeScript, Signals, OnPush]
+
+    - #link("https://biantattoo.pages.dev/")[Live]: #strong[Google Apps Script, Cloudflare Pages]
+
+    - Seguridad: sistema anti-bot de 3 capas (honeypot, control de tiempo y rate limiting)
+
+    - Validación estricta de inputs y ofuscación de datos de contacto contra scraping
 
   ],
 )
 
-== Education
+== Formación Académica
 
   #education-entry(
   [
-    #strong[National Technological University (UTN)], Higher Technician in Software development
+    #strong[Universidad Tecnológica Nacional (UTN)], Tecnicatura Universitaria Superior en Programación \/ Desarrollo de Software
 
   ],
   [

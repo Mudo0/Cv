@@ -28,30 +28,37 @@ cv:
       - label: Herramientas
         details: Git, Linux, Docker, Testing, Playwright, CI/CD, GitHub Actions, Cloudflare Pages
       - label: Metodologías
-        details: Scrum, Kanban, Agentic AI - Opencode
+        details: Scrum, Kanban, Agentic AI (Opencode)
     Proyectos Relevantes:
-      - name: "Aplicación de Chat en Tiempo Real [[Live]](https://chat-collab-frontend.onrender.com/) [[Frontend]](https://github.com/Tomilomi/chat-collab-react) [[Backend]](https://github.com/Tomilomi/chat-in-realtime-collab)"
+      - name: "[Aplicación de Chat en Tiempo Real](https://chat-collab-frontend.onrender.com/)"
         date:
         start_date:
         end_date:
         location:
-        tags: '#rendercv-tags("C#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core, React, Tailwind")'
         summary: Desarrollo de una plataforma de mensajería escalable en un entorno colaborativo, utilizando SignalR para comunicación bidireccional de baja latencia. Participé en el desarrollo integral del sistema (Full-stack).
-      - name: "Pokémon TCG [[Live]](https://pokemon-tcg-g8-1.onrender.com/welcome) [[Repo]](https://github.com/Lantieridev/pokemon-tcg)"
+        highlights:
+          - "[Repo Backend](https://github.com/Tomilomi/chat-in-realtime-collab): **C#, SignalR, Websockets, JWT, PostgreSQL, ASP.NET Core**"
+          - "[Repo Frontend](https://github.com/Tomilomi/chat-collab-react): **React, Tailwind**"
+
+      - name: "[Pokémon TCG](https://pokemon-tcg-g8-1.onrender.com/welcome)"
         date:
         start_date:
         end_date:
         location:
-        tags: '#rendercv-tags("Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose, Angular, TypeScript")'
         summary: Versión digital del Juego de Cartas Coleccionables de Pokémon desarrollada como proyecto universitario para la UTN. Backend en Spring Boot con Java 21 y frontend en Angular. Cuenta con un motor de juego personalizado que maneja turnos, ataques, cálculo de daño, condiciones especiales y condiciones de victoria. La sincronización multijugador en tiempo real se realiza mediante WebSocket, con PostgreSQL para la persistencia, Flyway para las migraciones de base de datos y Docker Compose para la infraestructura contenerizada.
-      - name: "Portfolio Tatuajes [[Live]](https://biantattoo.pages.dev/) [[Repo]](https://github.com/Mudo0/portfolio-bianca)"
+        highlights:
+          - "[Live](https://pokemon-tcg-g8-1.onrender.com/welcome): **Java 21, Spring Boot, JWT, WebSocket, PostgreSQL, Flyway, Docker Compose**"
+          - "Frontend: **Angular, Typescript**"
+
+      - name: "[Portfolio Tatuajes](https://biantattoo.pages.dev/)"
         date:
         start_date:
         end_date:
         location:
-        tags: '#rendercv-tags("Angular, TypeScript, Signals, OnPush, Google Apps Script, Cloudflare Pages")'
         summary: Portfolio web para una tatuadora. Construido con Angular y TypeScript utilizando Signals y detección de cambios OnPush. Cuenta con una galería con lightbox y un formulario de contacto integrado con Google Apps Script, desplegado en Cloudflare Pages.
         highlights:
+          - "[Repo](https://github.com/Mudo0/portfolio-bianca): **Angular, TypeScript, Signals, OnPush**"
+          - "[Live](https://biantattoo.pages.dev/): **Google Apps Script, Cloudflare Pages**"
           - "Seguridad: sistema anti-bot de 3 capas (honeypot, control de tiempo y rate limiting)"
           - "Validación estricta de inputs y ofuscación de datos de contacto contra scraping"
 
@@ -75,20 +82,6 @@ design:
       headline: 9pt
       connections: 9pt
       section_titles: 1.1em
-  templates:
-    one_line_entry:
-      # DETAILS se pasa como argumento a #rendercv-tags(...), que convierte
-      # cada item separado por ", " en una "pill" (solo en PDF/PNG).
-      main_column: '**LABEL:** #rendercv-tags("DETAILS")'
-    normal_entry:
-      # TAGS es un custom key de cada proyecto (ver sección "Proyectos
-      # Relevantes"); el comando #rendercv-tags(...) se preserva y renderiza
-      # como pills redondeadas en el PDF.
-      main_column: |-
-        **NAME** -- **LOCATION**
-        TAGS
-        SUMMARY
-        HIGHLIGHTS
   # page:
   #   size: us-letter
   #   top_margin: 0.7in
@@ -129,7 +122,7 @@ locale:
 settings:
   current_date: today
   render_command:
-    output_folder: spanish
+    output_folder: spanish_classic
     design:
     typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
     pdf_path: OUTPUT_FOLDER/Mateo_CV_es.pdf
@@ -141,5 +134,5 @@ settings:
     dont_generate_typst: false
     dont_generate_pdf: false
     dont_generate_png: false
-  bold_keywords: [tiempo real, real-time]
+  bold_keywords: [Full-stack, tiempo real, real-time]
   pdf_title: NAME - CV - Developer

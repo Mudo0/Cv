@@ -19,5 +19,8 @@ __pycache__/
 
 *.j2.typ
 *.j2.md
+
+# Override del tema engineeringresumes (Preamble con rendercv-tags)
+!engineeringresumes/Preamble.j2.typ
 *.j2.tex
 *.j2.json
